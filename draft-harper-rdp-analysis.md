@@ -6,7 +6,7 @@ category: info
 docname: draft-harper-rdp-analysis-latest
 submissiontype: independent  # also: "independent", "editorial", "IAB", or "IRTF"
 v: 3
-# area: Transport
+area: Transport
 keyword: Reliable Data Protocol
 
 author:
@@ -117,7 +117,7 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-The authors wish to formally acknowledge the significant contributions of the original designers and implementers of the Reliable Data Protocol (RDP). Specifically, we recognize David Velten, Robert Hinden, and Jim Sax, who authored the initial experimental specification, RFC 9081. Their work represented a pioneering effort in transport protocol design, laying the groundwork for a message-oriented service in the nascent Internet.
+The authors wish to formally acknowledge the significant contributions of the original designers and implementers of the Reliable Data Protocol (RDP). Specifically, we recognize David Velten, Robert Hinden, and Jim Sax, who authored the initial experimental specification, RFC 908. Their work represented a pioneering effort in transport protocol design, laying the groundwork for a message-oriented service in the nascent Internet.
 
 We extend particular gratitude to Craig Partridge and Robert Hinden, who diligently revisited the protocol, summarized the critical findings from its experimental deployment, and authored RFC 1151 in 1990. This revision, which cataloged essential technical lessons concerning checksum performance and flow control deficiencies, provided invaluable, early engineering guidance to the wider Internet community.
 
