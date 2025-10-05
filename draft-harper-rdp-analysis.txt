@@ -316,7 +316,7 @@ Acknowledgments
    contributions of the original designers and implementers of the
    Reliable Data Protocol (RDP).  Specifically, we recognize David
    Velten, Robert Hinden, and Jim Sax, who authored the initial
-   experimental specification, RFC 9081.  Their work represented a
+   experimental specification, RFC 908.  Their work represented a
    pioneering effort in transport protocol design, laying the groundwork
    for a message-oriented service in the nascent Internet.
 
