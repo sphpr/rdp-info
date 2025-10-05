@@ -28,6 +28,13 @@ Abstract
    explorations of Internet transport protocols, and does not propose
    any new standards or deployment recommendations.
 
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/sphpr/rdp-info.
+
 Status of This Memo
 
    This Internet-Draft is submitted in full conformance with the
