@@ -103,7 +103,7 @@ Table of Contents
    advanced stage of the IETF standardization process, the lessons
    learned from its experimental deployment hold lasting value for the
    Internet community.  This document serves to formally record this
-   history and to codify its technical lessons5.
+   history and to codify its technical lessons.
 
 1.2.  Document Scope and Methodology
 
