@@ -39,7 +39,7 @@ This document reviews and analyzes the history and experience of the Reliable Da
 
 ## Context and Objective
 
-The Reliable Data Protocol (RDP) was released in 1984 via RFC 908, forming part of a series of early Internet experimental protocols. The protocol attempted to offer a transport layer service distinct from the existing Transmission Control Protocol (TCP), designed specifically for applications that require explicit message boundaries and are sensitive to latency, such as remote debugging and file transfer. Although RDP's initial version (RFC 908) was designated as experimental, and the protocol never progressed to an advanced stage of the IETF standardization process, the lessons learned from its experimental deployment hold lasting value for the Internet community. This document serves to formally record this history and to codify its technical lessons5.
+The Reliable Data Protocol (RDP) was released in 1984 via RFC 908, forming part of a series of early Internet experimental protocols. The protocol attempted to offer a transport layer service distinct from the existing Transmission Control Protocol (TCP), designed specifically for applications that require explicit message boundaries and are sensitive to latency, such as remote debugging and file transfer. Although RDP's initial version (RFC 908) was designated as experimental, and the protocol never progressed to an advanced stage of the IETF standardization process, the lessons learned from its experimental deployment hold lasting value for the Internet community. This document serves to formally record this history and to codify its technical lessons.
 
 ## Document Scope and Methodology
 
