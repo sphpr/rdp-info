@@ -1,64 +1,37 @@
 ---
-###
-# Internet-Draft Markdown Template
-#
-# Rename this file from draft-todo-yourname-protocol.md to get started.
-# Draft name format is "draft-<yourname>-<workgroup>-<name>.md".
-#
-# For initial setup, you only need to edit the first block of fields.
-# Only "title" needs to be changed; delete "abbrev" if your title is short.
-# Any other content can be edited, but be careful not to introduce errors.
-# Some fields will be set automatically during setup if they are unchanged.
-#
-# Don't include "-00" or "-latest" in the filename.
-# Labels in the form draft-<yourname>-<workgroup>-<name>-latest are used by
-# the tools to refer to the current version; see "docname" for example.
-#
-# This template uses kramdown-rfc: https://github.com/cabo/kramdown-rfc
-# You can replace the entire file if you prefer a different format.
-# Change the file extension to match the format (.xml for XML, etc...)
-#
-###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "A Historical Analysis of Design Lessons from The Reliable Data Protocol Version 1 and Version 2"
+abbrev: "RDP-History"
 category: info
 
 docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
-number:
-date:
-consensus: true
+submissiontype: independent  # also: "independent", "editorial", "IAB", or "IRTF"
 v: 3
-area: AREA
-workgroup: WG Working Group
-keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
-venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+area: Transport
+keyword: Reliable Data Protocol
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Sophie Harper
+    organization: Independent
+    email: sphpr@proton.me
 
 normative:
+  RFC908:
+  RFC1151:
 
 informative:
+  RFC2018:
+  Partridge87:
+       title: "Private Communication"
+       author:
+         name: Partridge, C.
+       date: February 1987
 
 ...
 
 --- abstract
 
-TODO Abstract
-
+This document reviews and analyzes the history and experience of the Reliable Data Protocol (RDP). RDP was initially published as an experimental protocol in RFC 908 in 1984 and subsequently revised in RFC 1151 in 19901. RDP aimed to provide a message-oriented, reliable transport service to meet specific application requirements such as remote loading. This document summarizes the key technical experiences gained from RDP's experimental deployment2, details the lessons learned regarding checksum performance and flow control mechanisms, and assesses the conceptual influence of its design principles on subsequent IETF transport protocols (e.g., TCP SACK and QUIC). The document is intended for historical archiving, providing a reference for early explorations of Internet transport protocols, and does not propose any new standards or deployment recommendations.
 
 --- middle
 
