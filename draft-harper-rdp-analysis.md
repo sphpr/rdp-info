@@ -6,7 +6,7 @@ category: info
 docname: draft-harper-rdp-analysis-latest
 submissiontype: independent  # also: "independent", "editorial", "IAB", or "IRTF"
 v: 3
-area: Transport
+# area: Transport
 keyword: Reliable Data Protocol
 
 author:
