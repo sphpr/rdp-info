@@ -3,7 +3,7 @@ title: "A Historical Analysis of Design Lessons from The Reliable Data Protocol 
 abbrev: "RDP-History"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-harper-rdp-analysis-latest
 submissiontype: independent  # also: "independent", "editorial", "IAB", or "IRTF"
 v: 3
 area: Transport
@@ -117,4 +117,14 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+## Acknowledgments
+
+Acknowledgments
+
+The authors wish to formally acknowledge the significant contributions of the original designers and implementers of the Reliable Data Protocol (RDP). Specifically, we recognize David Velten, Robert Hinden, and Jim Sax, who authored the initial experimental specification, RFC 9081. Their work represented a pioneering effort in transport protocol design, laying the groundwork for a message-oriented service in the nascent Internet.
+
+We extend particular gratitude to Craig Partridge and Robert Hinden, who diligently revisited the protocol, summarized the critical findings from its experimental deployment, and authored RFC 1151 in 1990. This revision, which cataloged essential technical lessons concerning checksum performance and flow control deficiencies, provided invaluable, early engineering guidance to the wider Internet community.
+
+Furthermore, acknowledgment is due to the members of the End-to-End Research Group who participated in RDP's testing and offered insights, including the proposed solution for the flow control problem.
+
+Their collective efforts, even in the context of an experimental protocol that did not reach full standardization, continue to inform and influence the design of modern, more sophisticated transport layer technologies.
